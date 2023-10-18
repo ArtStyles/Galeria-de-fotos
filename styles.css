@@ -44,7 +44,7 @@ img{
     padding: 10px;
 }
 
-.gallery_picture:hover{
+.gallery_picture::selection{
     flex: 100%;
     position: fixed;
     top:0;
