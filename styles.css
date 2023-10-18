@@ -30,20 +30,21 @@ img{
 }
 
 .gallery{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
-    
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .gallery_picture{
     flex:100px;
     max-width: 150px;
+    padding: 10px;
 }
 
-.gallery_picture:active{
+.gallery_picture:hover{
     flex: 100%;
     position: fixed;
     top:0;
