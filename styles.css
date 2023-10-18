@@ -44,13 +44,11 @@ img{
     padding: 10px;
 }
 
-.gallery_picture::selection{
-    flex: 100%;
-    position: fixed;
-    top:0;
-    z-index: 10;
-    bottom: 0;
-    max-width: none;
+.activada{
+  display: fixed;
+  flex: 100%;
+  max-width: none ;
+  position: absolute;
 }
 
 .title{
